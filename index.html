@@ -1,238 +1,266 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maquetación Web</title>
-  <link rel="stylesheet" href="Normalize/normalize.css"> <!--arregla todos los bugs-->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" type="image/x-icon" href="img/logo.png";
-</head>
-<body>
-  <!--Inicio de cabezera-->
-  
-    <div id="logotipo">
-    <img src="img/logo.png" alt="Logotipo de la web">
-    </div>
-  <header class="cabezera">
-    <h1><a href="#">MASTER EN CSS</a></h1>
-  </header>
-  <!--fin de la cabezera-->
-  <!--menú de navegación-->
-  <nav id="menu">
-    <ul>
-      <li>
-        <a href="#">Inicio</a>
-      </li>
-      <li>
-        <a href="#">Contenido</a>
-      </li>
-      <li>
-        <a href="#">Requerimientos</a>
-      </li>
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetación Web</title>
+    <link rel="stylesheet" href="Normalize/normalize.css"> <!--arregla todos los bugs-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png";
+  </head>
+  <body>
+    <!--Inicio de cabezera-->
+    
+      <div id="logotipo">
+      <img src="img/logo.png" alt="Logotipo de la web">
+      </div>
+    <header class="cabezera">
+      <h1><a href="#">MASTER EN CSS</a></h1>
+    </header>
+    <!--fin de la cabezera-->
+    <!--menú de navegación-->
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Contenido</a>
+        </li>
+        <li>
+          <a href="#">Requerimientos</a>
+        </li>
 
-      <li>
-        <a href="#">Lenguajes</a>
-        <ul>
-          <li>
-            <a href="#">Html</a>
-          </li>
-          <li>
-            <a href="#">Css</a>
-          </li>
-          <li>
-            <a href="#">javascript</a>
-          </li>
-        </ul>
-      </li>
-
-      <li>
-        <a href="#">Frameworks</a>
-        <ul>
-          <li>
-            <a href="#">LESS</a>
-          </li>
-          <li>
-            <a href="#">SASS</a>
-          </li>
+        <li>
+          <a href="#">Lenguajes</a>
+          <ul>
             <li>
-              <a href="#">BOOTSTRAP</a>
+              <a href="#">Html</a>
             </li>
-        </ul>
-      </li>
+            <li>
+              <a href="#">Css</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">Frameworks</a>
+          <ul>
+            <li>
+              <a href="#">LESS</a>
+            </li>
+            <li>
+              <a href="#">SASS</a>
+            </li>
+              <li>
+                <a href="#">BOOTSTRAP</a>
+              </li>
+          </ul>
+        </li>
+        
+        <li>
+          <a href="#">Proyectos</a>
+        </li>
+        <li>
+          <a href="#">El Instructor</a>
+        </li>
+        <li>
+          <a href="#">Reseñas</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <!--fin del menú de navegación-->
+
+    <!--Inicio del contenido central-->
+    <div id="contenedor">
+    <!--comienzo de la barra Lateral-->
+    <aside id="lateral">
+      <div class="widget" id="login">
+      <h3 class="gris">Entrar a la web</h3><br>
+      <form>
+      <label for="texto 1a">Usuario:</label>
+      <input type="text" name="texto 1a"><br>
+      <label for="texto 1b">Contraseña:</label>
+      <input type="password" name="texto 1b"><br>
+
+      <input type="button" value="Entrar"/><br>
+      </form>
+      <a href="#">Zona de Alumnos</a><br>
+      <a href="#">Zona del Profesor</a><br>
+      <a href="#">Acceso a calificaciones</a><br><br>
       
-      <li>
-        <a href="#">Proyectos</a>
+    </div>
+
+    <div class="widget" id="login">
+      <h3 class="blue">Aula virtual 1</h3><br>
+      <form>
+      <label for="texto 2a">Nombre Usuario:</label>
+      <input type="text" name="texto 2a"><br>
+      <label for="texto 2b">Contraseña:</label>
+      <input type="password" name="texto 2b"><br>
+      <input type="button" value="Entrar"/><br><br>
+      </form> 
+      </div>
+
+    <div class="widget" id="login"> 
+      <h3 class="red">Aula Virtual 2</h3><br>
+    <form>
+      <label for="texto 3a">Usuario:</label>
+      <input type="text" name="texto 3a"><br>
+      <label for="texto 3b">Contraseña:</label>
+      <input type="password" name="texto 3b"><br>
+      <input type="button" value="Entrar"/><br><br>
+      </form>
+      </div>
+
+    <div class="widget" id="login">   
+    <h3>Enlaces de interés</h3><br>
+      <ul>
+      <li>    
+        <a href="#">Master en javascripth</a>
       </li>
       <li>
-        <a href="#">El Instructor</a>
+        <a href="#">Master en PHP</a>
       </li>
       <li>
-        <a href="#">Reseñas</a>
+        <a href="#">Master en Frameworks JS</a>
       </li>
       <li>
-        <a href="#">Blog</a>
+        <a href="#">Master en Webs full-stack</a>
       </li>
       <li>
-        <a href="#">Contacto</a>
+        <a href="htts://victorroblesweb.es">victorroblesweb.es</a>
       </li>
     </ul>
-  </nav>
-  <!--fin del menú de navegación-->
-
-  <!--Inicio del contenido central-->
-  <div id="contenedor">
-   <!--comienzo de la barra Lateral-->
-   <aside id="lateral">
-    <div class="widget" id="login">
-    <h3 class="gris">Entrar a la web</h3><br>
-    <form>
-    <label for="texto 1a">Usuario:</label>
-    <input type="text" name="texto 1a"><br>
-    <label for="texto 1b">Contraseña:</label>
-    <input type="password" name="texto 1b"><br>
-
-    <input type="button" value="Entrar"/><br>
-    </form>
-    <a href="#">Zona de Alumnos</a><br>
-    <a href="#">Zona del Profesor</a><br>
-    <a href="#">Acceso a calificaciones</a><br><br>
-    
   </div>
+  </aside>
+  <aside id="frase">
+    <p>Frase del dia:<blockquote>Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+    <a href="#">Leer mas frases</a>
+    </blockquote>
+    </p>
+  </aside>
+  <!--Final de la barra Lateral-->
 
-  <div class="widget" id="login">
-    <h3 class="blue">Aula virtual 1</h3><br>
-    <form>
-    <label for="texto 2a">Nombre Usuario:</label>
-    <input type="text" name="texto 2a"><br>
-    <label for="texto 2b">Contraseña:</label>
-    <input type="password" name="texto 2b"><br>
-    <input type="button" value="Entrar"/><br><br>
-    </form> 
-    </div>
-
-  <div class="widget" id="login"> 
-    <h3 class="red">Aula Virtual 2</h3><br>
-  <form>
-    <label for="texto 3a">Usuario:</label>
-    <input type="text" name="texto 3a"><br>
-    <label for="texto 3b">Contraseña:</label>
-    <input type="password" name="texto 3b"><br>
-    <input type="button" value="Entrar"/><br><br>
-    </form>
-    </div>
-
-  <div class="widget" id="login">   
-  <h3>Enlaces de interés</h3><br>
-    <ul>
-     <li>    
-       <a href="#">Master en javascripth</a>
-     </li>
-     <li>
-       <a href="#">Master en PHP</a>
-     </li>
-     <li>
-       <a href="#">Master en Frameworks JS</a>
-     </li>
-     <li>
-      <a href="#">Master en Webs full-stack</a>
-     </li>
-     <li>
-      <a href="htts://victorroblesweb.es">victorroblesweb.es</a>
-     </li>
-  </ul>
- </div>
- </aside>
- <aside id="frase">
-  <p>Frase del dia:<blockquote>Lorem ipsum dolor sit amet,consectetur adipiscing elit.
-  <a href="#">Leer mas frases</a>
-  </blockquote>
-  </p>
-</aside>
-<!--Final de la barra Lateral-->
-
-<!--centro-->
-<section id="sections">
-    <span class="stickers">
-      <img class="peg1" src="img/scotch.png" alt="pegatina">
-      <img class="peg2"src="img/scotch.png" alt="pegatina">
-    </span>
-    <article class="article">
-      <div class="parte">
-      <h2>Noticias de front-end</h2>
+  <!--centro-->
+  <section id="sections">
+      <span class="stickers">
+        <img class="peg3" src="img/scotch.png" alt="pegatina">
+        <img class="peg4"src="img/scotch.png" alt="pegatina">
+      </span>
+      <article class="article">
+      <div class="parte1">
+        <h2>Noticias de front-end</h2>
         <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de entrada</a>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]
+            </span>
+        </p>
+          <p>
+          <span class="icon">a</span>
           <a href="#">Titulo de entrada</a>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
-       <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
-       </p>
-       <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
-       <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
-       <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
-      </div>
-      <div class="parte">
-       <span class="stickers">
-        <img class="peg1" src="img/scotch.png" alt="pegatina">
-        <img class="peg2"src="img/scotch.png" alt="pegatina">
-        </span>
-       <h2  class="red">Noticias de Back-end</h2>
-       <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
-       <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+        </p>
         <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
-       <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+          <span class="icon">a</span>
+          <a href="#">Titulo de entrada</a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+        </p>
+        <p>
+          <span class="icon">a</span>
+          <a href="#">Titulo de entrada</a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+        </p>
+        <p>
+          <span class="icon">a</span>
+          <a href="#">Titulo de entrada</a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+        </p>
         </div>
         <div class="parte">
-         <span class="stickers">
+        <span class="stickers">
           <img class="peg1" src="img/scotch.png" alt="pegatina">
           <img class="peg2"src="img/scotch.png" alt="pegatina">
-        </span>
+          </span>
+        <h2  class="red">Noticias de Back-end</h2>
+        <p>
+          <span class="icon">a</span>
+          <a href="#">Titulo de entrada</a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+        </p>
+        <p>
+          <span class="icon">a</span>
+          <a href="#">Titulo de entrada</a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+        </p>
+        <p>
+          <span class="icon">a</span>
+          <a href="#">Titulo de entrada</a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+          </p>
+        <p>
+          <span class="icon">a</span>
+          <a href="#">Titulo de entrada</a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+          </p>
+          </div>
+          <div class="parte">
+          <span class="stickers">
+            <img class="peg1" src="img/scotch.png" alt="pegatina">
+            <img class="peg2"src="img/scotch.png" alt="pegatina">
+          </span>
 
-       <h2 class="yellow">Noticias del Instructor</h2>
-       <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
-       <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
-       <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
-       <p>
-        <a href="#">Titulo de entrada</a>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
-        </div> 
-         <!--fin centro-->
-    </article>
-  </section><br><br>
+        <h2 class="yellow">Noticias del Instructor</h2>
+        
+        <p>
+        <span class="icon">a</span>
+          <a href="#">Titulo de entrada</a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]
+          </span>
+        </p>
+        <p>
+          <span class="icon">a</span>
+          <a href="#">Titulo de entrada</a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+        </p>
+        <p>
+          <span class="icon">a</span>
+          <a href="#">Titulo de entrada</a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+        </p>
+        <p>
+          <span class="icon">a</span> 
+          <a href="#">Titulo de entrada</a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesent convallis,tellus id faucibus pretium, mi lectus nibh,eu viverra ante felis vel arcu. Donec at elit eu erat pretium pellentesque ut sed mauris. Integer ac libero feugiat mauris aliquam.<span class="date">[26-02-2021.Lisette]</span>
+          </div> 
+        </p>
+          <!--fin centro-->
+      </article>
+    </section><br><br>
 
 
 
- <div class="clearfix"></div>
+  <div class="clearfix"></div>
+  <div class="history">
+  <a href="#">[Ver histórico de noticias]</a>
+  </div>
 
-<footer class="pie">
-  <h4>&copy; Desarrollado por Víctor Robles WEB</h4>
-    Más contenido y formación de desarrollo web en <a href="#">victorroblesweb.es/academy</a>
-</footer>
-<!--Fin del contenido central-->
-</div>
+  <footer class="pie">
+    <h4>&copy; Desarrollado por Víctor Robles WEB</h4>
+      Más contenido y formación de desarrollo web en <a href="#">victorroblesweb.es/academy</a>
+  </footer>
+  <!--Fin del contenido central-->
+  </div>
 
 
-   
-</body>
-</html>
+    
+  </body>
+  </html>
